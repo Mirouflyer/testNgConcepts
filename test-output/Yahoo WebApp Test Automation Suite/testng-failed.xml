@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo WebApp Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Yahoo WebApp Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="emailId" value="samir_aitouarab@yahoo.fr"/>
+    <parameter name="env" value="QA"/>
+    <parameter name="url" value="https://login.yahoo.com"/>
+    <classes>
+      <class name="testNGParameters.ParameterTest">
+        <methods>
+          <include name="yahooLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGParameters.ParameterTest -->
+    </classes>
+  </test> <!-- Yahoo WebApp Test(failed) -->
+</suite> <!-- Failed suite [Yahoo WebApp Test Automation Suite] -->

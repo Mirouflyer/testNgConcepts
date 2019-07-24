@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 19 15:10:41 EDT 2019</td>
+<td>Started on:</td><td>Wed Jul 24 12:02:11 EDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4717 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45655 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNgtutorial.TestDemonstration.googleTitleTest()'><b>googleTitleTest</b><br>Test class: testNgtutorial.TestDemonstration</td>
-<td><div><pre>java.lang.AssertionError: title is not matched expected [Google1234] but found [Google]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at testNgtutorial.TestDemonstration.googleTitleTest(TestDemonstration.java:32)
+<td title='testNgtutorial.GoogleTest.googleLogoTest()'><b>googleLogoTest</b><br>Test class: testNgtutorial.GoogleTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class=&quot;ddlv-a&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mirouflyers-MBP&apos;, ip: &apos;fe80:0:0:0:4f9:898d:c3fe:19f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;11.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testNgtutorial.GoogleTest.googleLogoTest(GoogleTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,14 +111,17 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1586470445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1586470445'><pre>java.lang.AssertionError: title is not matched expected [Google1234] but found [Google]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at testNgtutorial.TestDemonstration.googleTitleTest(TestDemonstration.java:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1251897263", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1251897263'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class=&quot;ddlv-a&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mirouflyers-MBP&apos;, ip: &apos;fe80:0:0:0:4f9:898d:c3fe:19f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;11.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testNgtutorial.GoogleTest.googleLogoTest(GoogleTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,8 +148,31 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
+<td>15</td>
+<td>testNgtutorial.GoogleTest@fa4c865</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNgtutorial.GoogleTest.googleTitleTest()'><b>googleTitleTest</b><br>Test class: testNgtutorial.GoogleTest</td>
+<td></td>
 <td>0</td>
-<td>testNgtutorial.TestDemonstration@2362f559</td></tr>
+<td>testNgtutorial.GoogleTest@fa4c865</td></tr>
+<tr>
+<td title='testNgtutorial.GoogleTest.searchTest()'><b>searchTest</b><br>Test class: testNgtutorial.GoogleTest</td>
+<td></td>
+<td>5</td>
+<td>testNgtutorial.GoogleTest@fa4c865</td></tr>
+<tr>
+<td title='testNgtutorial.GoogleTest.searchTest2()'><b>searchTest2</b><br>Test class: testNgtutorial.GoogleTest</td>
+<td></td>
+<td>4</td>
+<td>testNgtutorial.GoogleTest@fa4c865</td></tr>
 </table><p>
 </body>
 </html>
